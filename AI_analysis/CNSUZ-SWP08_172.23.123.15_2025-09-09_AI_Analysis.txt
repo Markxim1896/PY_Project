@@ -1,0 +1,208 @@
+=== 日志内容: ===
+ terminal length 0 
+CNSUZ-SWP08# show log
+Syslog logging: enabled (0 messages dropped, 9 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 226 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 233 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (8192 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level debugging, 237 message lines logged
+        Logging to 172.19.230.153  (udp port 514, audit disabled,
+              link up),
+              236 message lines logged, 
+              0 message lines rate-limited, 
+              0 message lines dropped-by-MD, 
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging Source-Interface:       VRF Name:
+        Vlan1007                        
+
+Log Buffer (16384 bytes):
+NG-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 23 10:57:31.894 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 23 18:48:32.126 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 23 19:55:16.622 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 24 04:05:48.383 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 24 04:08:13.481 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 24 08:18:30.428 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 15:03:29.589 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 18:25:59.175 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 20:07:13.974 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 20:57:50.878 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 21:23:09.831 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 21:35:48.814 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 21:42:08.810 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 21:45:18.812 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 21:46:53.819 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 24 21:47:53.823 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 25 07:35:19.566 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 25 15:38:28.223 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 26 08:36:05.418 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 27 21:15:50.167 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 27 23:09:24.056 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 28 10:45:48.480 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 28 17:30:47.652 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 28 20:53:17.230 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 28 22:34:32.022 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 28 23:25:08.923 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 28 23:50:27.874 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 29 00:03:06.855 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 29 00:09:26.849 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 29 00:12:36.845 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 29 00:14:11.842 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 29 00:15:11.843 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 29 05:58:51.173 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 29 19:02:21.005 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 29 23:40:40.166 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 30 12:16:07.345 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 00:33:50.990 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Aug 31 01:46:05.647 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 08:31:04.799 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 11:53:34.378 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 13:34:49.178 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 14:25:26.074 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 14:50:45.028 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 15:03:24.012 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 15:09:44.005 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 15:12:54.006 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 15:14:29.012 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Aug 31 15:15:29.015 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  1 07:38:58.950 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 08:52:37.873 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 14:35:55.454 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 15:19:32.604 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 15:55:49.599 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 19:35:42.178 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 20:03:10.146 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  1 23:43:51.252 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  2 10:09:45.225 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPACK, MAC sa: 9444.5278.9abe
+*Sep  3 08:06:13.095 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  3 08:08:33.932 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  3 11:04:53.841 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 6ed4.2e63.3cc6, MAC sa: b652.d397.8b43
+*Sep  3 18:56:40.574 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPNAK, MAC sa: 9444.5278.9abe
+*Sep  3 23:28:42.219 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  4 12:00:46.241 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  4 12:58:40.526 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  4 15:45:07.487 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 6ed4.2e63.3cc6, MAC sa: b652.d397.8b43
+*Sep  4 19:43:39.689 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  4 23:06:09.270 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 00:47:24.064 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 01:38:00.968 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 02:03:19.924 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 02:15:58.897 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 02:22:18.888 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 02:25:28.886 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 02:27:03.890 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 02:28:03.896 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_MATCH_MAC_FAIL: DHCP_SNOOPING drop message because the chaddr doesn't match source mac, message type: DHCPREQUEST, chaddr: 909c.4acb.ef83, MAC sa: 00e0.4c7f.8473
+*Sep  5 09:48:47.555 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  5 10:06:11.401 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  6 14:09:37.899 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  6 14:50:19.881 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  8 08:18:43.891 china: %DHCP_SNOOPING-5-DHCP_SNOOPING_UNTRUSTED_PORT: DHCP_SNOOPING drop message on untrusted port, message type: DHCPOFFER, MAC sa: 9444.5278.9abe
+*Sep  9 15:53:00.701 china: %SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 172.17.148.163
+CNSUZ-SWP08# 
+=== 设备名称: CNSUZ-SWP08 ===
+=== 设备 IP: 172.23.123.15 ===
+=== AI 分析时间: 2025-09-09 ===
+
+系统日志分析如下：
+
+### 问题识别与异常分析
+
+#### 1. DHCP Snooping异常事件
+从日志中可以观察到大量与 `DHCP_SNOOPING` 相关的异常消息。这些消息主要有两种类型：
+- **`DHCP_SNOOPING_UNTRUSTED_PORT`**: 表示在非信任端口（untrusted port）上的 DHCP 报文被丢弃。
+- **`DHCP_SNOOPING_MATCH_MAC_FAIL`**: 表示 DHCP 请求的 `chaddr` 与源 MAC 地址不匹配，导致报文被丢弃。
+
+**潜在问题：**
+- **`UNTRUSTED_PORT` 问题**:
+  设备检测到在指定为非信任的端口上收到 DHCP 消息（例如，DHCPOFFER 或 DHCPACK）。这可能表示:
+  - 该端口上连接了不应运行 DHCP 服务的设备/主机。
+  - 存在伪造的 DHCP 服务器，这是典型的攻击行为（例如 DHCP 欺骗攻击），可能导致用户接收到伪造的 IP 地址和网络配置。
+  
+- **`MATCH_MAC_FAIL` 问题**:
+  报文的客户端硬件地址（chaddr）与报文的源 MAC 地址（MAC sa）不匹配。这可能表示:
+  - 报文被恶意设备篡改。
+  - 网络中存在不正确的配置或违规设备。
+
+#### 2. SSH 异常
+日志末尾显示了以下警告：
+```
+%SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 172.17.148.163
+```
+**潜在问题：**
+- 表示从 IP 地址 `172.17.148.163` 发起的 SSH 连接尝试意外终止。这可能表明:
+  - 发起的请求可能具有错误的 SSH 消息格式。
+  - 存在恶意或不正确配置的设备尝试建立 SSH 会话。
+  - 网络上潜在的安全威胁，如暴力破解或漏洞利用。
+
+---
+
+### 安全事件分析
+
+1. **DHCP欺骗威胁**
+   `DHCP_SNOOPING_UNTRUSTED_PORT` 高频出现，这是 DHCP 防护机制阻止潜在的欺骗行为的重要线索。设备可能面临伪冒 DHCP 服务器的攻击尝试，例如通过伪造 DHCPOFFER 报文来分发恶意的网络配置。
+
+2. **伪冒设备**
+   `DHCP_SNOOPING_MATCH_MAC_FAIL` 提示设备接收到的报文存在硬件地址与源 MAC 地址不匹配的情况。这种报文可能来自伪冒用户设备或恶意行为企图篡改 DHCP 通信。
+
+3. **SSH安全威胁**
+   SSH 消息终止的日志可能表明恶意行为或者尝试破解网络设备的安全访问。
+
+---
+
+### 优化建议
+
+#### DHCP Snooping
+1. **强化DHCP Snooping配置**:
+   - 确保所有信任端口（trusted port）准确配置。例如，连接合法 DHCP 服务器的端口需要标记为信任端口。
+   - 检查有问题的非信任端口是否连接到了伪冒 DHCP 服务器，执行网络物理排查或端口分析。
+   - 特别关注 `MAC sa: 9444.5278.9abe` 和其他多次出现的可疑 MAC 地址，可能是伪造的 DHCP 服务器或非法设备。
+
+2. **启用 DHCP Snooping绑定表**:
+   - 配置机制以记录每个端口的合法设备 MAC 地址与IP绑定关系。可通过审计绑定表来发现异常设备。
+   - 使用 `ip dhcp snooping database` 将绑定信息存储在持久存储区域，方便后续分析。
+
+3. **流量分析与日志审计**:
+   - 对高频出现的 `MAC sa: 9444.5278.9abe` 和 `MAC sa: 00e0.4c7f.8473` 进行深入分析，监控这些地址是否为合法设备。
+   - 使用网络流量分析工具巡查相关端口流量，寻找潜在的欺诈设备。
+
+#### SSH优化
+1. **限制SSH访问来源**:
+   - 配置 ACL（访问控制列表），仅允许可信的 IP 地址进行 SSH 登录尝试。
+   - 在配置中明确禁止无关来源，特别是经常出现异常消息的地址（如 `172.17.148.163`）。
+
+2. **启用SSH安全机制**:
+   - 更新设备到最新固件版本，修复任何已知 SSH 漏洞。
+   - 配置较强的认证机制，如仅接受基于公钥的登录方式。
+   - 启用防护暴力破解的机制，例如限制失败尝试的频率。
+
+#### 日志管理
+1. **增强日志管理**
+   - 启用 `Persistent logging`，确保日志不会在设备重启后丢失，以便长期保留数据审计历史。
+   - 开启 `Count and timestamp logging`，记录日志中各项事件的计数和时间戳，便于管理员分析频率和趋势。
+
+2. **集中化日志分析**:
+   - 现部署的远程日志服务器 `172.19.230.153` 应结合 SIEM （安全事件与日志管理）工具，将日志分析自动化。
+   - 检查远程日志频率，如果可能，减少率限制（rate-limited）现象，以确保完整记录关键事件。
+
+---
+
+### 总结
+当前系统日志中的主要问题可能是网络存在潜在的欺骗、伪冒或异常设备导致的 DHCP Snooping和 SSH问题。建议根据上述优化措施对配置进行审查和强化，同时通过网络监控工具排查异常来源。如问题持续，应联合物理和系统层面进行排查处理。
